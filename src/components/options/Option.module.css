@@ -1,0 +1,47 @@
+/* Ana Konteyner */
+.optionContainer {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+/* Butonlar */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 100px;
+  font-weight: bold;
+}
+
+/* Buton hover efekti */
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Reset Butonu */
+button.reset {
+  background-color: #dc3545;
+}
+
+button.reset:hover {
+  background-color: #a71d2a;
+}
+
+/* Küçük ekranlarda düğmeleri alt alta hizala */
+@media (max-width: 480px) {
+  .option-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  button {
+    width: 80%;
+  }
+}
