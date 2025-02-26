@@ -1,4 +1,4 @@
-import styles from "./description.module.css"; // CSS module'ü import ettik 🎨
+import styles from "./Description.module.css"; // CSS module'ü import ettik 🎨
 function Description () {
     return(
         <>
