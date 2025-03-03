@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import styles from "./Feedback.module.css"; // CSS module'ü import ettik
-import Option from "./options/Option";
+import Option from "../options/Option";
 
 function Feedback() {
   const [feedback, setFeedback] = useState(() => {
