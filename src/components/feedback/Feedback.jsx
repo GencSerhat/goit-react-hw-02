@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
-import Option from "../options/option";
 import styles from "./Feedback.module.css"; // CSS module'ü import ettik
+import Option from "../options/option";
 
 function Feedback() {
   const [feedback, setFeedback] = useState(() => {
@@ -53,7 +53,7 @@ function Feedback() {
     <div className="className={styles.container}">
 
    
-      <Option
+      <option
         onGood={updateGood}
         onNeutral={updateNeutral}
         onBad={updateBad}
