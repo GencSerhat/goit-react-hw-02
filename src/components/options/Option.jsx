@@ -1,4 +1,4 @@
-import styles from "./option.module.css"; // CSS module'ü import ettik
+import styles from "./Option.module.css"; // CSS module'ü import ettik
 function Option({ onGood, onNeutral, onBad, onReset, total }) {
   return (
     <>
