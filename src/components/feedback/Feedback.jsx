@@ -53,7 +53,7 @@ function Feedback() {
     <div className="className={styles.container}">
 
    
-      <option
+      <Option
         onGood={updateGood}
         onNeutral={updateNeutral}
         onBad={updateBad}
